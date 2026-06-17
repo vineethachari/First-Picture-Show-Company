@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/yugovallp/public_html/onlineyuga.co/First-Picture-Show-Company/
+    - cp -r $DEPLOYPATH/dist/* $DEPLOYPATH
