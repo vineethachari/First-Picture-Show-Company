@@ -50,7 +50,7 @@ export default function Home() {
         {/* COMPANY NAME — ~1/3 of page */}
         <div className="relative flex flex-col items-center justify-center" style={{ minHeight: "33vh" }}>
           {/* Large centered logo */}
-          <FPSCLogo height={120} className="md:hidden" />
+          <FPSCLogo height={200} className="md:hidden" />
           <FPSCLogo height={200} className="hidden md:block lg:hidden" />
           <FPSCLogo height={260} className="hidden lg:block" />
           <div className="mt-6 text-center">
